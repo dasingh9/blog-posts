@@ -14,6 +14,8 @@ This repository contains articles and tutorials on various topics, including:
 ### 🟨 JavaScript
 
 - [🎭 Understanding the Ternary Operator and 🔗 Optional Chaining in JavaScript](javascript/understanding-the-ternary-operator-and-optional-chaining-in-javascript.md)
+- [🎭 JavaScript String Operations](javascript/javascript-string-operations.md)
+- [🎭 JavaScript Regular Expressions](javascript/javascript-regex-webdev.md)
 
 ### 🎨 HTML & CSS
 
@@ -35,6 +37,8 @@ I will continue adding more posts over time — stay tuned! ⭐
 ├── README.md
 ├── javascript/
 │   ├── understanding-the-ternary-operator-and-optional-chaining-in-javascript.md
+│   ├── javascript-string-operations.md
+│   ├── javascript-regex-webdev.md
 ├── html-css/
 │   ├── (future blog posts here)
 ```
