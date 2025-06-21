@@ -97,7 +97,7 @@ console.log("No! ".repeat(3)); // No! No! No!
 Or motivational chants:
 
 ```js
-console.log("You got this! 💪 ".repeat(2));
+console.log("You got this! 💪 ".repeat(2)); // You got this! 💪 You got this! 💪
 ```
 
 ---
