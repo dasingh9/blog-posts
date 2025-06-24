@@ -37,7 +37,7 @@ if (age >= 18) {
 
 ```mermaid
 flowchart TD
-  A[Check Age] -->|>= 18| B[Allowed to Vote]
+  A[Check Age] -->|">= 18"| B[Allowed to Vote]
   A -->|< 18| C[Too Young to Vote]
 ```
 
@@ -189,9 +189,6 @@ switch (day) {
     console.log("Just another day 💤");
 }
 ```
-
-### 🔽 Visual Flow (switch statement)
-
 
 ### 🔽 Visual Flow (switch statement)
 
