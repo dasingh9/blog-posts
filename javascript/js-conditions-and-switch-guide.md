@@ -1,5 +1,10 @@
-
 # 🧠 Mastering Conditions & `switch` Statements in JavaScript (With Functions!)
+
+Conditional logic is the decision-maker of your code — it decides **what happens and when**. Whether you’re building a game, handling user input, or working with APIs, you'll constantly need to ask questions like:
+
+- "Is the user logged in?"
+- "Is the score high enough to win?"
+- "What action should I take based on this value?"
 
 Conditional logic allows you to **control the flow** of your application based on **data and decisions**. In this guide, we'll explore:
 
