@@ -30,16 +30,15 @@ if (age >= 18) {
 }
 ```
 
-### 🔁 Function Version
-
-
 ### 🔽 Visual Flow (if...else)
 
 ```mermaid
 flowchart TD
-  A[Check Age] -->|">= 18"| B[Allowed to Vote]
-  A -->|< 18| C[Too Young to Vote]
+  A[Check Age] -->|greater than or equals to 18| B[Allowed to Vote]
+  A -->|less than 18| C[Too Young to Vote]
 ```
+
+### 🔁 Function Version
 
 ```js
 function checkVotingEligibility(age) {
