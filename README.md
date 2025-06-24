@@ -17,6 +17,7 @@ This repository contains articles and tutorials on various topics, including:
 - [🎭 JavaScript String Operations](javascript/javascript-string-operations.md)
 - [🎭 JavaScript Regular Expressions](javascript/javascript-regex-webdev.md)
 - [🎭 JavaScript Conditions and Switch Statement](javascript/js-conditions-and-switch-guide.md)
+- [🎭 JavaScript Loops Guide](javascript/js-loops-guide.md)
 
 ### 🎨 HTML & CSS
 
