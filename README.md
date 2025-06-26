@@ -15,7 +15,7 @@ This repository contains articles and tutorials on various topics, including:
 
 - [🎭 Understanding the Ternary Operator and 🔗 Optional Chaining in JavaScript](javascript/understanding-the-ternary-operator-and-optional-chaining-in-javascript.md)
 - [🎭 JavaScript String Operations](javascript/javascript-string-operations.md)
-- [🎭 JavaScript String Function with Real World Examples](javascript/js-string-functions-real-world-examples.md)
+- [🎭 JavaScript String Functions with Real World Examples](javascript/js-string-functions-real-world-examples.md)
 - [🎭 JavaScript Regular Expressions](javascript/javascript-regex-webdev.md)
 - [🎭 JavaScript Conditions and Switch Statement](javascript/js-conditions-and-switch-guide.md)
 - [🎭 JavaScript Loops Guide](javascript/js-loops-guide.md)
