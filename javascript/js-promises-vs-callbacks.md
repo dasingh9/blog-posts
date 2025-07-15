@@ -26,18 +26,6 @@ In this example:
 - The nesting grows deeper with each layer.
 - This structure is often called **callback hell** or the **pyramid of doom**.
 
-### Callback Hell Visualized:
-
-```mermaid
-graph TD
-  A[getUser] --> B[callback: user]
-  B --> C[getOrders]
-  C --> D[callback: orders]
-  D --> E[getOrderDetails]
-  E --> F[callback: details]
-  F --> G[console.log]
-```
-
 ---
 
 ## ✅ The Solution: Promises
@@ -61,16 +49,6 @@ This version:
 - Flattens the async flow.
 - Keeps logic clean and readable.
 - Provides centralized error handling with `.catch()`.
-
-### Promise Flow Visualized:
-
-```mermaid
-graph TD
-  A[getUser] --> B[then: getOrders]
-  B --> C[then: getOrderDetails]
-  C --> D[then: console.log]
-  D --> E[catch: handle error]
-```
 
 ---
 
