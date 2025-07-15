@@ -30,12 +30,12 @@ In this example:
 
 ```mermaid
 graph TD
-  A[getUser(userId)] --> B[callback(user)]
-  B --> C[getOrders(user.id)]
-  C --> D[callback(orders)]
-  D --> E[getOrderDetails(orders[0])]
-  E --> F[callback(details)]
-  F --> G[console.log(details)]
+  A[getUser] --> B[callback: user]
+  B --> C[getOrders]
+  C --> D[callback: orders]
+  D --> E[getOrderDetails]
+  E --> F[callback: details]
+  F --> G[console.log]
 ```
 
 ---
@@ -66,10 +66,10 @@ This version:
 
 ```mermaid
 graph TD
-  A[getUser(userId)] --> B[.then(user => getOrders(user.id))]
-  B --> C[.then(orders => getOrderDetails(orders[0]))]
-  C --> D[.then(details => console.log(details))]
-  D --> E[.catch(error => console.error(error))]
+  A[getUser] --> B[then: getOrders]
+  B --> C[then: getOrderDetails]
+  C --> D[then: console.log]
+  D --> E[catch: handle error]
 ```
 
 ---
