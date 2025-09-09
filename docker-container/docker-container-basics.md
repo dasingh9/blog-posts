@@ -34,7 +34,7 @@ docker ps
 
 ---
 
-# 📊 Docker Container: Simple Process Flow (Build → Run → Container)
+# 📊 Docker Container: Build → Run → Container
 
 ```mermaid
 flowchart TD
